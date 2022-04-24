@@ -1,0 +1,6 @@
+User-agent: *
+Accept: *.html
+User-agent: GoogleBot
+Accept: *.html
+User-agent: YandexBot
+Accept: *.html
