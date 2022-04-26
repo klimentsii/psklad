@@ -12,6 +12,7 @@ import { UgolokPageComponent } from './components/ugolok-page/ugolok-page.compon
 import { MetallPageComponent } from './components/metall-page/metall-page.component';
 import { ContactsPageComponent } from './components/contacts-page/contacts-page.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,4 +32,7 @@ import { ContactsPageComponent } from './components/contacts-page/contacts-page.
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor() {
+  }
+}

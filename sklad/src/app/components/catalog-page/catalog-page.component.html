@@ -20,72 +20,30 @@
                   <img class="services__icon" src="assets/images/Catalog/profil'nye-truby.png" alt="">
 
                   <div class="services__title">профильная труба</div>
-                  <div class="services__text">
-                      Цены в скобках указаны за 1м экземпляра<br>
-                      Профильная труба 15 x 15 x 1.5 - 6.0 м (2.38 р)<br>
-                      Профильная труба 20 x 10 x 1.5 - 6.0 м (2.38 р)<br>
-                      Профильная труба 20 x 20 x 1.5 - 6.0 м (2.95 р)<br>
-                      Профильная труба 20 x 20 x 2.0 - 6.0 м (3.40 р)<br>
-                      Профильная труба 25 x 25 x 1.5 - 6.0 м (3.69 р)<br>
-                      Профильная труба 25 x 25 x 2.0 - 6.0 м (3.99 р)<br>
-                      Профильная труба 30 x 15 x 1.5 - 6.0 м (4.95 р)<br>
-                      Профильная труба 30 x 20 x 2.0 - 6.0 м (3.99 р)<br>
-                      Профильная труба 30 x 30 x 1.5 - 6.0 м (4.62 р)<br>
-                      Профильная труба 30 x 30 x 2.0 - 6.0 м (5.36 р)<br>
-                      Профильная труба 40 x 20 x 1.5 - 6.0 м (4.70 р)<br>
-                      Профильная труба 40 x 20 x 2.0 - 6.0 м (4.99 р)<br>
-                      Профильная труба 40 x 25 x 1.5 - 6.0 м (4.92 р)<br>
-                      Профильная труба 40 x 25 x 2.0 - 6.0 м (5.49 р)<br>
-                      <strong>Профильная труба 40 x 28 x 1.5 - 6.0 м (5.98 p)<br></strong>
-                      <strong>Профильная труба 40 x 30 x 1.5 - 6.0 м (6.16 p)<br></strong>
-
-                  </div>
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of profil[0][0]" >{{ item }} ({{ profil[0][1][profil[0][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
               <div class="services__item  services__item--border">
                   <img class="services__icon" src="assets/images/Catalog/profil'naya-truba.png" alt="">
 
                   <div class="services__title">профильная труба</div>
-                  <div class="services__text">
-                      Цены в скобках указаны за 1м экземпляра<br>
-                      Профильная труба 40 x 40 x 1.5 - 6.0 м (6.37 р)<br>
-                      Профильная труба 40 x 40 x 2.0 - 6.0 м (6.73 р)<br>
-                      Профильная труба 40 x 40 x 3.0 - 6.0 м (9.70 р)<br>
-                      <strong>Профильная труба 40 x 40 x 4.0 - 6.0 м (13.0 р)<br></strong>
-                      Профильная труба 45 x 45 x 2.0 - 6.0 м (8.85 р)<br>
-                      Профильная труба 50 x 25 x 1.5 - 6.0 м (6.10 р)<br>
-                      Профильная труба 50 x 25 x 2.0 - 6.0 м (6.39 р)<br>
-                      Профильная труба 50 x 30 x 2.0 - 6.0 м (7.50 р)<br>
-                      Профильная труба 50 x 50 x 1.5 - 6.0 м (7.80 р)<br>
-                      Профильная труба 50 x 50 x 2.0 - 6.0 м (8.52 р)<br>
-                      Профильная труба 50 x 50 x 3.0 - 6.0 м (12.45 р)<br>
-                      Профильная труба 60 x 30 x 2.0 - 6.0 м (8.59 р)<br>
-                      Профильная труба 60 x 40 x 1.5 - 6.0 м (7.72 р)<br>
-                      Профильная труба 60 x 40 x 2.0 - 6.0 м (8.52 р)<br>
-                  </div>
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of profil[1][0]" >{{ item }} ({{ profil[1][1][profil[1][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
               <div class="services__item  services__item--border">
                   <img class="services__icon" src="assets/images/Catalog/profil'nye-truby.png" alt="">
 
                   <div class="services__title">профильная труба</div>
-                  <div class="services__text">
-                      Цены в скобках указаны за 1м экземпляра<br>
-                      Профильная труба 60 x 40 x 3.0 - 6.0 м (11.90 р)<br>
-                      Профильная труба 60 x 60 x 1.5 - 6.0 м (12.36 р)<br>
-                      Профильная труба 60 x 60 x 2.0 - 6.0 м (10.69 р)<br>
-                      Профильная труба 60 x 60 x 3.0 - 6.0 м (15.20 р)<br>
-                      <strong>Профильная труба 80 x 40 x 1.5 - 6.0 м (10.17 р)<br></strong>
-                      Профильная труба 80 x 40 x 2.0 - 6.0 м (10.69 р)<br>
-                      Профильная труба 80 x 40 x 3.0 - 6.0 м (15.20 р)<br>
-                      Профильная труба 80 x 60 x 2.0 - 6.0 м (13.55 р)<br>
-                      Профильная труба 80 x 60 x 3.0 - 6.0 м (17.95 р)<br>
-                      <strong>Профильная труба 80 x 80 x 3.0 - 6.0 м (26.70 р)<br></strong>
-                      <strong>Профильная труба 80 x 80 x 4.0 - 6.0 м (20.67 р)<br></strong>
-                      <strong>Профильная труба 100 x 100 x 3.0 м     (25.00 р)<br></strong>
-                      <strong>Профильная труба 100 x 100 x 4.0 м     (33.00 р)<br></strong>
-                      Профильная труба 120 x 120 x 4.0 - 6.0 м (45.00 р)
-                  </div>
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of profil[2][0]" >{{ item }} ({{ profil[2][1][profil[2][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
               <div class="section__header">
@@ -96,41 +54,28 @@
                   <img class="services__icon" src="assets/images/Catalog/metallicheskij-list.png" alt="">
 
                   <div class="services__title">Лист металлический</div>
-                  <div class="services__text">
-                      Цена указана в размерности<br>
-                      Металлический лист 0.8 x 1.25 x 2.5 X/K (73.80 р)<br>
-                      Металлический лист 1.0 x 1.25 x 2.5 X/K (93.20 р)<br>
-                      Металлический лист 1.5 x 1.25 x 2.5 X/K (135.0 р)<br>
-                      Металлический лист 1.5 x 1.25 x 2.5 Г/K (130.0 р)<br>
-                      Металлический лист 2.0 x 1.25 x 2.5 Г/K (176.0 р)<br>
-                      Металлический лист 3.0 x 1.25 x 2.5 Г/K (284.0 р)<br>
-                  </div>
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of db[1][0]" >{{ item }} ({{ db[1][1][db[1][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
               <div class="services__item  services__item--border">
                   <img class="services__icon" src="assets/images/Catalog/vodogazoprovodnaya-elektrosvarnaya-truba.png" alt="">
                   <div class="services__title">труба водогазопроводная и электросварная</div>
-                  <div class="services__text">
-                      Цены в скобках указаны за 1м экземпляра<br>
-                      ду 15 x 2.8 м (4.48р ) <br>
-                      ду 20 x 2.8 м (5.84р ) <br>
-                      ду 25 x 3.2 м (7.61р ) <br>
-                      ду 32 x 3.2 м (8.59р ) <br>
-                      ду 40 x 3.5 м (10.19р ) <br>
-                      ду 50 x 3.5 м (13.59р )
-                  </div>
-
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of db[2][0]" >{{ item }} ({{ db[2][1][db[2][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
               <div class="services__item  services__item--border">
                   <img class="services__icon" src="assets/images/Catalog/kvadrat.jpg" alt="">
                   <div class="services__title">квадрат</div>
-                  <div class="services__text">
-                      Цены в скобках указаны за 1м экземпляра<br>
-                      Металлический квадрат 8 x 8 м (3.23 р) <br>
-                      Металлический квадрат 10 x 10 м (4.62 р) <br>
-                      Металлический квадрат 12 x 12 м (6.20 р) <br>
-                  </div>
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of db[3][0]" >{{ item }} ({{ db[3][1][db[3][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
               <div class="section__header">
@@ -141,48 +86,30 @@
                   <img class="services__icon" src="assets/images/Catalog/krug.png" alt="">
 
                   <div class="services__title">круг</div>
-                  <div class="services__text">
-                      Цены в скобках указаны за 1м экземпляра<br>
-                      Металлический круг диаметр 6 мм (0.88 р) <br>
-                      Металлический круг диаметр 8 мм (1.40 р) <br>
-                      Металлический круг диаметр 10 мм (2.15 р) <br>
-                      Металлический круг диаметр 12 мм (2.93 р) <br>
-                      Металлический круг диаметр 14 мм (3.09 р) <br>
-                      Металлический круг диаметр 16 мм (4.60 р) <br>
-                      Металлический круг диаметр 20 мм (7.06 р)
-                  </div>
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of db[4][0]" >{{ item }} ({{ db[4][1][db[4][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
               <div class="services__item">
                   <img class="services__icon" src="assets/images/Catalog/ugolok.png" alt="">
 
                   <div class="services__title">уголок</div>
-                  <div class="services__text">
-                      Цены в скобках указаны за 1м экземпляра<br>
-                      Уголок 25 x 25 x 4.0 - 6.0 м (6.20 р) <br>
-                      Уголок 32 x 32 x 4.0 - 6.0 м (8.00 р) <br>
-                      Уголок 40 x 40 x 4.0 - 6.0 м (9.70 р) <br>
-                      Уголок 50 x 50 x 5.0 - 6.0 м (14.70 р) <br>
-                      Уголок 63 x 63 x 5.0 - 6.0 м (14.50 р) <br>
-                      Уголок 75 x 75 x 5.0 м       (19.17 р) <br>
-                      Уголок 90 x 90 x 7.0 м       (19.18 р)  <br>
-                      Уголок 100 x 100 x 7.0 м     (33.04 р)
-                  </div>
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of db[5][0]" >{{ item }} ({{ db[5][1][db[5][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
               <div class="services__item">
                   <img class="services__icon" src="assets/images/Catalog/armatura.png" alt="">
 
                   <div class="services__title">арматура</div>
-                  <div class="services__text">
-                      Цены в скобках указаны за 1м экземпляра<br>
-                      Арматура диаметр 6 мм (0.78 р)<br>
-                      Арматура диаметр 8 мм (1.37 р)<br>
-                      Арматура диаметр 10 мм (1.79 р)<br>
-                      Арматура диаметр 12 мм (2.47 р)<br>
-                      Арматура диаметр 14 мм (3.40 р)<br>
-                      Арматура диаметр 16 мм (4.33 р)
-                  </div>
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of db[6][0]" >{{ item }} ({{ db[6][1][db[6][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
               <div class="section__header">
@@ -193,47 +120,30 @@
                   <img class="services__icon" src="assets/images/Catalog/zaglushki.png" alt="">
 
                   <div class="services__title">Заглушки</div>
-                  <div class="services__text">
-                      Цены в скобках указаны за 1м экземпляра<br>
-                      Заглушки 15 x 15 (0.15 р)<br>
-                      Заглушки 20 x 20 (0.15 р)<br>
-                      Заглушки 25 x 25 (0.15 р)<br>
-                      Заглушки 30 x 20 (0.30 р)<br>
-                      Заглушки 30 x 30 (0.30 р)<br>
-                      Заглушки 40 x 20 (0.30 р)<br>
-                      Заглушки 40 x 25 (0.35 р)<br>
-                      Заглушки 40 x 40 (0.40 р)<br>
-                  </div>
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of zaglushki[0][0]" >{{ item }} ({{ zaglushki[0][1][zaglushki[0][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
               <div class="services__item">
                   <img class="services__icon" src="assets/images/Catalog/zaglushki.png" alt="">
 
                   <div class="services__title">Заглушки</div>
-                  <div class="services__text">
-                      Цены в скобках указаны за 1м экземпляра<br>
-                      Заглушки 50 x 25 (0.45 р)<br>
-                      Заглушки 50 x 50 (0.60 р)<br>
-                      Заглушки 60 x 40 (0.60 р)<br>
-                      Заглушки 60 x 60 (0.70 р)<br>
-                      Заглушки 80 x 40 (0.70 р)<br>
-                      Заглушки 80 x 60 (1.40 р)<br>
-                      Заглушки 80 x 80 (1.40 р)<br>
-                      Заглушки 100 x 100 (1.80 р)<br>
-                  </div>
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of zaglushki[1][0]" >{{ item }} ({{ zaglushki[1][1][zaglushki[1][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
               <div class="services__item">
                   <img class="services__icon" src="assets/images/Catalog/metallicheskaya-polosa.jpg" alt="">
 
                   <div class="services__title">Полоса металлическая</div>
-                  <div class="services__text">
-                      Цены в скобках указаны за 1м экземпляра<br>
-                      Полоса 25 x 4.0 (2.79 р)<br>
-                      Полоса 40 x 4.0 (4.25 Р)<br>
-                      Полоса 50 x 5.0 (7.10 Р)<br>
-                      Полоса 2.9 x 1.3 (0.69 Р)
-                  </div>
+                  <ul>
+                    Цены в скобках указаны за 1м экземпляра<br>
+                    <li class="services__text" *ngFor="let item of db[8][0]" >{{ item }} ({{ db[8][1][db[8][0].indexOf(item)] }} р.)</li>
+                  </ul>
               </div>
 
           </div>
