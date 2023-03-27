@@ -22,6 +22,8 @@ import * as XLSX from 'xlsx';
 })
 export class CatalogPageComponent {
 
+  date: Date = new Date()
+
   public db: Array<Array<Array<string>>> = [];
 
   public profil: Array<Array<Array<string>>> = [[[], []], [[], []], [[], []]];
